@@ -1,5 +1,6 @@
 # Summary
 
 * [前言](README.md)
-* [First Chapter](chapter1.md)
+* [安装](chapter1.md)
+  * [MaxOS](chapter1/maxos.md)
 
