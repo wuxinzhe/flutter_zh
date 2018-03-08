@@ -1,4 +1,8 @@
-# Flutter 中文翻译文档
+# Flutter 文档
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+##### 文档翻译，如有翻译的不正确或不恰当的地方，还望共同完善补全。
+
+##### 
+
+
 
