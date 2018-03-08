@@ -9,7 +9,7 @@
 
 ## 获取 Flutter SDK
 
-请使用git工具从flutter的 [**Github仓库**](https://github.com/flutter/flutter.git) 中获取 Flutter SDK ，并且添加** “flutter” **命令行指令到你的环境变量中。在控制台中运行** “flutter doctor” **命令后所显示的所有依赖包都将是你需要安装的内容。
+请使用git工具从flutter的 [**Github仓库**](https://github.com/flutter/flutter.git) 中获取 Flutter SDK ，并且添加** “flutter” **命令行指令到你的环境变量中。之后在控制台中运行** “flutter doctor” **命令后所显示的所有依赖包都将是你需要安装的内容。
 
 ## 克隆代码仓库
 
@@ -21,6 +21,4 @@
 以上命令仅暂时地向你的系统中添加了环境变量，所以它仅适用于你当前操作的控制台。要永久的添加 **“flutter” **环境变量，请参考** **[**更新你的环境变量**](https://flutter.io/setup-macos/#update-your-path)。
 
 更新现有的Flutter，请参考[**升级Flutter**](https://flutter.io/upgrading/)**。**
-
-
 
