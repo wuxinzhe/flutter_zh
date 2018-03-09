@@ -44,3 +44,5 @@ $ flutter doctor
 
 当你第一次运行 flutter 的相关命令（比如 **flutter doctor**），flutter 将会下载他的相关依赖包并且自行编译。这样之后再运行相关命令则会变得更有效率。
 
+以下部分将描述如何执行这些任务并且完成相关步骤。如果你选择使用IDE相关插件如：IntelliJ IDEA、Android Studio及VS Code，你将会看到flutter的相关输出信息。
+
