@@ -75,7 +75,5 @@ $ echo $PATH
 
 你可以使用 **flutter** 命令行工具在任何编辑器中开发 Flutter 应用。使用 **flutter help** 命令，可快速查看有效的工具。
 
-我们建议使用我们为专业 IDE 提供的插件以得到最佳的编辑、运行及调试 Flutter App 的体验。查看[编辑器配置](https://flutter.io/get-started/editor/)的相关细节以进行下一步操作。
-
-
+我们建议使用我们为专业 IDE 提供的插件以得到最佳的编辑、运行及调试 Flutter App 的体验。查看[编辑器配置](/pei-zhi-bian-ji-qi.md)的相关细节以进行下一步操作。
 
