@@ -18,7 +18,7 @@
     $ git clone -b beta https://github.com/flutter/flutter.git
     $ export PATH=`pwd`/flutter/bin:$PATH
 
-以上命令仅暂时地向你的系统中添加了环境变量，所以它仅适用于你当前操作的控制台。要永久的添加 **“flutter” **环境变量，请参考** **[**更新你的环境变量**](https://flutter.io/setup-macos/#update-your-path)。
+以上命令仅暂时地向你的系统中添加了环境变量，所以它仅适用于你当前操作的控制台。要永久的添加 **“flutter” **环境变量，请参考[** 更新你的环境变量**](#更新路径)。
 
 更新现有的Flutter，请参考[**升级Flutter**](https://flutter.io/upgrading/)**。**
 
@@ -45,4 +45,31 @@ $ flutter doctor
 当你第一次运行 flutter 的相关命令（比如 **flutter doctor**），flutter 将会下载他的相关依赖包并且自行编译。这样之后再运行相关命令则会变得更有效率。
 
 以下部分将描述如何执行这些任务并且完成相关步骤。如果你选择使用IDE相关插件如：IntelliJ IDEA、Android Studio及VS Code，你将会看到flutter的相关输出信息。
+
+在你的安装过程中，一旦错过了某些依赖包，你可以通过再次运行 **flutter doctor** 命令来验证你是否已经正确的安装了所有的依赖包。
+
+> flutter 构建工具使用 Google Analytics 收集匿名的数据统计及基础的崩溃报告。这些数据是用来在不就得将来，帮助改进 flutter 构建工具。
+
+## 更新路径
+
+你可以为你当前的控制台添加命令路径的环境变量，参考[克隆代码仓库](#克隆代码仓库)。你可能也会希望永久的添加这个环境变量，让你在任何控制台中均可使用 **flutter** 命令。
+
+永久的添加环境变量的步骤在不同的操作系统中是不一样的。
+
+1. 确认 flutter 的目录地址，这个地址将会在第三步时使用；
+2. 打开 或 创建 **$HOME/.bash\_profile 。**文件名及路径可能会因为操作系统的不同而不同；
+3. 添加下面这行代码，并用第一步获取的路径替换代码中 **\[PATH\_TO\_FLUTTER\_GIT\_DIRECTORY\] **部分。
+
+```
+$ export PATH=[PATH_TO_FLUTTER_GIT_DIRECTORY]/flutter/bin:$PATH
+```
+
+1. 运行 **source $HOME/.bash\_profile **以刷新当前窗口。
+2. 通过运行下面的命令验证 flutter/bin 目录已经添加到了你的路径变量中
+
+```
+$ echo $PATH
+```
+
+
 
