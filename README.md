@@ -6,19 +6,11 @@ Flutter 是 Google 出品的一个跨平台（IOS，Android）开源开发框架
 
 > 但 Flutter 没有采用类似 JSX 这样的 XML 页面构建方式，所以代码风格可能会让传统前端开发人员有点难以接受，但我相信这不会是阻碍这个优秀框架前进的问题。当然或许有一天，Flutter 也会推出类似 JSX 或其他更好的页面构建方式。
 
-
-
 当前翻译工作由 梦游的龙猫 担任主要编辑。
 
-
+Gitbook阅读地址：[https://flutter.showings.com.cn](https://flutter.showings.com.cn/)
 
 如果你也有兴趣加入其中，烦请与我取得联系。
 
-
-
 ![](/assets/WechatIMG4.jpeg)
-
-
-
-
 
