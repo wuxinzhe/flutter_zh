@@ -91,5 +91,11 @@ macOS 同时支持开发IOS和Android的Flutter App。现在来完成至少一�
 2. 从控制台运行 **sudo xcode-select --switch /Applications/Xcode.app/Contents/Developer **命令来配置Xcode命令行工具使用最新安装的Xcode版本。在一般情况下，当你使用最新版本的Xcode时，这个路径都是正确的。如果你需要使用其他不同的版本，只需要将路径替换掉即可。
 3. 一旦打开Xcode就要确认Xcode的许可协议已经被签署。或者通过控制台运行 **sudo xcodebuild -license** 命令来确认。
 
+通过Xcode你可以在IOS设备或虚拟机上运行Flutter App
+
+### 配置IOS虚拟机
+
+
+
 
 
