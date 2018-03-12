@@ -71,9 +71,25 @@ $ export PATH=[PATH_TO_FLUTTER_GIT_DIRECTORY]/flutter/bin:$PATH
 $ echo $PATH
 ```
 
-## 编辑器设置
+## 编辑器配置
 
 你可以使用 **flutter** 命令行工具在任何编辑器中开发 Flutter 应用。使用 **flutter help** 命令，可快速查看有效的工具。
 
 我们建议使用我们为专业 IDE 提供的插件以得到最佳的编辑、运行及调试 Flutter App 的体验。查看[编辑器配置](/pei-zhi-bian-ji-qi.md)的相关细节以进行下一步操作。
+
+## 目标平台配置
+
+macOS 同时支持开发IOS和Android的Flutter App。现在来完成至少一个目标平台的配置以构建并运行你第一个Flutter App。
+
+## IOS 配置
+
+### 安装 Xcode
+
+为了要开发IOS的的Flutter App，你至少需要一台Mac并且安装了7.2版本或更新版本的Xcode。
+
+1. 安装7.2版本或更新版本的Xcode（可以通过[Web下载](https://developer.apple.com/xcode/)或从[Mac App Store下载](https://itunes.apple.com/us/app/xcode/id497799835)）；
+2. 从控制台运行 **sudo xcode-select --switch /Applications/Xcode.app/Contents/Developer **命令来配置Xcode命令行工具使用最新安装的Xcode版本。在一般情况下，当你使用最新版本的Xcode时，这个路径都是正确的。如果你需要使用其他不同的版本，只需要将路径替换掉即可。
+3. 一旦打开Xcode就要确认Xcode的许可协议已经被签署。或者通过控制台运行 **sudo xcodebuild -license** 命令来确认。
+
+
 
