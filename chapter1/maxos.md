@@ -95,5 +95,15 @@ macOS 同时支持开发IOS和Android的Flutter App。现在来完成至少一�
 
 ### 配置IOS模拟器
 
+为了准备在你的IOS模拟器上运行和测试Flutter App，请跟随以下步骤进行操作
+
+```
+$ open -a Simulator
+```
+
+1. 通过菜单 **Hardware &gt; Device** 来检查你的虚拟机设置以确保你的虚拟机模拟的是64位的设备（IPhone 5s 或更新的机器）；
+2. 取决于你开发机器的屏幕尺寸，被虚拟的高屏密度的IOS设备可能会超出你的屏幕。通过菜单 **Window &gt; Scale **来设置你设备的缩放比例。
+3. 通过执行 **flutter run** 命令来开始运行你的App
+
 
 
