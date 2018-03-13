@@ -93,9 +93,7 @@ macOS 同时支持开发IOS和Android的Flutter App。现在来完成至少一�
 
 通过Xcode你可以在IOS设备或虚拟机上运行Flutter App
 
-### 配置IOS虚拟机
-
-
+### 配置IOS模拟器
 
 
 
