@@ -122,7 +122,30 @@ $ pod setup
 如果这些命令中有任何一条出现了错误，可以通过执行 brew doctor 命令并跟着响应的介绍去处理这些问题。
 
 1. 依照XCode的签约流程：
-   1. 通过控制台在你的Flutter工程目录下运行命令 **open ios/Runner.xcworkspace** 来打开你项目的默认Xcode工程。
+   1. 通过控制台在你的Flutter工程目录下运行命令 **open ios/Runner.xcworkspace** 来打开你项目的默认Xcode工程；
+   2. 在Xcode中选择左边导航栏的 **Runner** 项目；
+      1. 在 Runner 的设置页面中，确保在 General &gt; Signing &gt; Team 选项下，你已经选择了一个开发团队。当你选择一个团队时，Xcode会创建并下载开发证书，以你的账号来注册你的设备，并创建和下载一个规则描述文件 Provinsioning profile（如果需要）；
+         * 在开始开发你第一个IOS项目之前，你或许需要使用你的苹果账号注册Xcode。![](/assets/xcode-account.png)
+
+
+                 任何苹果账号都支持开发及测试。但只有注册了苹果开发者资格才能够将你的引用发布到苹果商店中。查看[苹果账户不同会员类型之间的差别](https://developer.apple.com/support/compare-memberships)。
+         * 当你第一次使用真机开发IOS时，你需要同时在你的设备上信任Mac和开发者证书。当你第一次将你的IOS设备连接上电脑时，在弹出的提示窗口中选择上选择 **Trust** 信任。
+
+                 ![](/assets/trust-computer.png)
+         * 然后，打开苹果设备的系统设置，找到 **General &gt; Device Management** 并信任你的开发证书。
+         * 如果在Xcode中，自动签名失败，找到项目的 **General &gt; Identity &gt; Bundle Identifier **，检验一下这个值是否是唯一的。![](/assets/xcode-unique-bundle-id.png)
+2. 通过执行 flutter run 命令开始运行你的app。
+
+## 安卓配置
+
+### 安装 Android Studio
+
+你可以使用Mac、Windows、或者Linux（64位）系统来开发安卓的Flutter App。
+
+Flutter 要求安装并设置Android Studio：
+
+1. 下载并安装[ Android Studio](https://developer.android.com/studio/index.html)。
+2. 运行并通过 “**Android Studio Setup Wizard”。**这么做将会安装最新的 Android SDK、Android SDK Platform-Tools 以及 Android SDK Build-Tools ，这些都是用Flutter开发安卓所必须的工具。
 
 
 
