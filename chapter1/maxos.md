@@ -181,7 +181,9 @@ Flutter 要求安装并设置Android Studio：
 7. 在安卓虚拟设备管理中，点击工具栏里的 Run。虚拟机开始运行并显示你所选择的操作系统版本的默认图像；
 8. 通过执行 flutter run 命令开始运行你的App，被链接的设备名称叫做 **Android SDK built for &lt;platform&gt; ，**其中platform是指集成电路，例如 x86。
 
+## 下一章节
 
+### [下一章节：配置编辑器](/pei-zhi-bian-ji-qi.md)
 
 
 
