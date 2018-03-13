@@ -105,5 +105,24 @@ $ open -a Simulator
 2. 取决于你开发机器的屏幕尺寸，被虚拟的高屏密度的IOS设备可能会超出你的屏幕。通过菜单 **Window &gt; Scale **来设置你设备的缩放比例。
 3. 通过执行 **flutter run** 命令来开始运行你的App
 
+### 真机运行
+
+如果你想要在真机上运行你的Flutter App，你需要一些额外的工具以及一个 Apple 账户。当然你也需要在Xcode中部署应用到真机。
+
+1. 安装 [homebrew](http://brew.sh/)；
+2. 打开控制台并运行以下命令安装相关部署工具
+
+```
+$ brew update
+$ brew install --HEAD libimobiledevice
+$ brew install ideviceinstaller ios-deploy cocoapods
+$ pod setup
+```
+
+如果这些命令中有任何一条出现了错误，可以通过执行 brew doctor 命令并跟着响应的介绍去处理这些问题。
+
+1. 依照XCode的签约流程：
+   1. 
+
 
 
