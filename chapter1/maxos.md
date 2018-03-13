@@ -123,11 +123,11 @@ $ pod setup
 
 1. 依照XCode的签约流程：
 
-   1.  通过控制台在你的Flutter工程目录下运行命令 **open ios/Runner.xcworkspace** 来打开你项目的默认Xcode工程；
+   1. 通过控制台在你的Flutter工程目录下运行命令 **open ios/Runner.xcworkspace** 来打开你项目的默认Xcode工程；
 
-   2.  在Xcode中选择左边导航栏的 **Runner** 项目；
+   2. 在Xcode中选择左边导航栏的 **Runner** 项目；
 
-      *  在 Runner 的设置页面中，确保在 General &gt; Signing &gt; Team 选项下，你已经选择了一个开发团队。当你选择一个团队时，Xcode会创建并下载开发证书，以你的账号来注册你的设备，并创建和下载一个规则描述文件 Provinsioning profile（如果需要）；
+      * 在 Runner 的设置页面中，确保在 General &gt; Signing &gt; Team 选项下，你已经选择了一个开发团队。当你选择一个团队时，Xcode会创建并下载开发证书，以你的账号来注册你的设备，并创建和下载一个规则描述文件 Provinsioning profile（如果需要）；
 
       * 在开始开发你第一个IOS项目之前，你或许需要使用你的苹果账号注册Xcode。![](/assets/xcode-account.png)
 
@@ -155,6 +155,17 @@ Flutter 要求安装并设置Android Studio：
 
 1. 下载并安装[ Android Studio](https://developer.android.com/studio/index.html)。
 2. 运行并通过 “**Android Studio Setup Wizard”。**这么做将会安装最新的 Android SDK、Android SDK Platform-Tools 以及 Android SDK Build-Tools ，这些都是用Flutter开发安卓所必须的工具。
+
+### 设置你的安卓设备
+
+为了准备在你的安卓设备上运行并测试Flutter app，你需要一个运行Android 4.1（API level 16）或更高版本的安卓设备。
+
+1. 在你的安卓设备上激活开发者选项以及USB调试模式，更多的细节介绍可以在[安卓文档](https://developer.android.com/studio/debug/dev-options.html)中获取；
+2. 将你的安卓设备通过USB线与电脑连接。如果你的设备有弹出提示，就授权你的电脑让它连接你的手机；
+3. 在控制台中，运行 **flutter devices** 命令以验证Fluuter识别出了你所链接的安卓设备；
+4. 通过运行 **flutter run** 命令，开始你的app。
+
+默认情况下，Flutter 使用你 **adb** 工具所基于的 Android SDK 版本。如果你希望Flutter使用不同的Android SDK，那你必须为安装目录设置 **ANDROID\_HOME **环境变量。
 
 
 
