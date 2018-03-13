@@ -167,5 +167,21 @@ Flutter 要求安装并设置Android Studio：
 
 默认情况下，Flutter 使用你 **adb** 工具所基于的 Android SDK 版本。如果你希望Flutter使用不同的Android SDK，那你必须为安装目录设置 **ANDROID\_HOME **环境变量。
 
+### 设置安卓模拟器
+
+请跟随以下步骤来为在安卓模拟器上运行和测试Flutter App而做准备。
+
+1. 激活你机器上的[虚拟机加速（VM acceleration）](https://developer.android.com/studio/run/emulator-acceleration.html)；
+2. 打开 **Android Studio&gt;Tools&gt;Android&gt;AVD Manager **并选择** Create Virtual Device**；
+3. 选择一个设备并选择** Next**；
+4. 为你想要虚拟的安卓版本选择一个或多个系统镜像，并选择 **Next。推荐使用x86及x86\_64的镜像**；
+5. 在虚拟机性能方面，选择 **Hardware - GLES 2.0 **以激活[硬件加速](https://developer.android.com/studio/run/emulator-acceleration.html)；
+6. 检验AVD配置是否正确，然后选择 **Finish**。
+   以上步骤的细节，详见 [AVDs 管理](https://developer.android.com/studio/run/managing-avds.html)。
+7. 在安卓虚拟设备管理中，点击工具栏里的 Run。虚拟机开始运行并显示你所选择的操作系统版本的默认图像；
+8. 通过执行 flutter run 命令开始运行你的App，被链接的设备名称叫做 **Android SDK built for &lt;platform&gt; ，**其中platform是指集成电路，例如 x86。
+
+
+
 
 
