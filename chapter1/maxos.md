@@ -122,7 +122,7 @@ $ pod setup
 如果这些命令中有任何一条出现了错误，可以通过执行 brew doctor 命令并跟着响应的介绍去处理这些问题。
 
 1. 依照XCode的签约流程：
-   1. 范
+   1. 通过控制台在你的Flutter工程目录下运行命令 **open ios/Runner.xcworkspace** 来打开你项目的默认Xcode工程。
 
 
 
