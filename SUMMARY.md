@@ -9,4 +9,7 @@
   * [Android Studio](pei-zhi-bian-ji-qi/android-studio.md)
   * [VS Code](pei-zhi-bian-ji-qi/vs-code.md)
 * [试运行](shou-ci-ti-yan.md)
+  * [Android Studio](shou-ci-ti-yan/android-studio.md)
+  * [VS Code](shou-ci-ti-yan/vs-code.md)
+  * [Terminal + editor](shou-ci-ti-yan/terminal-+-editor.md)
 
