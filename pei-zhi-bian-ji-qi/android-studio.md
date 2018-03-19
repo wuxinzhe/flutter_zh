@@ -1,4 +1,4 @@
-## Android Studio 配置
+# Android Studio 配置
 
 _Android Studio：_一个完整且完善的 Flutter 开发工具。
 
