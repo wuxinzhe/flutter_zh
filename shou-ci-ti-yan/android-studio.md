@@ -25,5 +25,15 @@ _Android Studio：_一个完整且完善的 Flutter 开发工具。
 
 ## 尝试热更新
 
+Flutter 通过hot reload（热更新）提供一个快速的开发周期，依赖于此，你可以在不重启App并保持App当前运行状态的情况下重新加载代码。通过IDE或命令行工具激活热更新，然后简单的修改你的源码之后查看你设备或模拟器上的变化。
+
+1. 修改字符串
+   **'You have pushed the button this many times:'**  变更为 **'You have clicked the button this many times:'**
+
+2. 不要点击‘Stop’按钮，让你的App继续保持运行。
+3. 执行 **Save All**（快捷键：cmd + s / ctrl + s），或点击 **Hot Reload button** （形如闪电的按钮）。
+
+
+
 
 
