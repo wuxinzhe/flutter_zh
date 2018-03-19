@@ -1,4 +1,4 @@
-## 系统要求
+# 系统要求
 
 要安装并运行Flutter，你的开发环境至少需要满足以下要求：
 
@@ -7,11 +7,11 @@
 * 工具：确保在你的开发环境中包含以下命令行工具：
   * bash，mkdir，rm，git，curl，unzip，which
 
-## 获取 Flutter SDK
+# 获取 Flutter SDK
 
 请使用git工具从flutter的 [**Github仓库**](https://github.com/flutter/flutter.git) 中获取 Flutter SDK ，并且添加** “flutter” **命令行指令到你的环境变量中。之后在控制台中运行** “flutter doctor” **命令后所显示的所有依赖包都将是你需要安装的内容。
 
-## 克隆代码仓库
+# 克隆代码仓库
 
 如果这是你第一次安装Flutter，请克隆仓库中的 **beta** 分支，之后添加 “flutter” 命令到你的环境变量中。
 
@@ -22,7 +22,7 @@
 
 更新现有的Flutter，请参考[**升级Flutter**](https://flutter.io/upgrading/)**。**
 
-## 运行 flutter doctor
+# 运行 flutter doctor
 
 通过运行以下命令，安装所有列出的依赖包以完成安装步骤。
 
@@ -50,7 +50,7 @@ $ flutter doctor
 
 > flutter 构建工具使用 Google Analytics 收集匿名的数据统计及基础的崩溃报告。这些数据是用来在不就得将来，帮助改进 flutter 构建工具。
 
-## 更新路径
+# 更新路径
 
 你可以为你当前的控制台添加命令路径的环境变量，参考[克隆代码仓库](#克隆代码仓库)。你可能也会希望永久的添加这个环境变量，让你在任何控制台中均可使用 **flutter** 命令。
 
@@ -71,19 +71,19 @@ $ export PATH=[PATH_TO_FLUTTER_GIT_DIRECTORY]/flutter/bin:$PATH
 $ echo $PATH
 ```
 
-## 编辑器配置
+# 编辑器配置
 
 你可以使用 **flutter** 命令行工具在任何编辑器中开发 Flutter 应用。使用 **flutter help** 命令，可快速查看有效的工具。
 
 我们建议使用我们为专业 IDE 提供的插件以得到最佳的编辑、运行及调试 Flutter App 的体验。查看[编辑器配置](/pei-zhi-bian-ji-qi.md)的相关细节以进行下一步操作。
 
-## 目标平台配置
+# 目标平台配置
 
 macOS 同时支持开发IOS和Android的Flutter App。现在来完成至少一个目标平台的配置以构建并运行你第一个Flutter App。
 
-## IOS 配置
+# IOS 配置
 
-### 安装 Xcode
+## 安装 Xcode
 
 为了要开发IOS的的Flutter App，你至少需要一台Mac并且安装了7.2版本或更新版本的Xcode。
 
@@ -93,7 +93,7 @@ macOS 同时支持开发IOS和Android的Flutter App。现在来完成至少一�
 
 通过Xcode你可以在IOS设备或虚拟机上运行Flutter App
 
-### 配置IOS模拟器
+## 配置IOS模拟器
 
 为了准备在你的IOS模拟器上运行和测试Flutter App，请跟随以下步骤进行操作
 
@@ -105,7 +105,7 @@ $ open -a Simulator
 2. 取决于你开发机器的屏幕尺寸，被虚拟的高屏密度的IOS设备可能会超出你的屏幕。通过菜单 **Window &gt; Scale **来设置你设备的缩放比例。
 3. 通过执行 **flutter run** 命令来开始运行你的App
 
-### 真机运行
+## 真机运行
 
 如果你想要在真机上运行你的Flutter App，你需要一些额外的工具以及一个 Apple 账户。当然你也需要在Xcode中部署应用到真机。
 
@@ -145,9 +145,9 @@ $ pod setup
 
 2. 通过执行 flutter run 命令开始运行你的app。
 
-## 安卓配置
+# 安卓配置
 
-### 安装 Android Studio
+## 安装 Android Studio
 
 你可以使用Mac、Windows、或者Linux（64位）系统来开发安卓的Flutter App。
 
@@ -156,7 +156,7 @@ Flutter 要求安装并设置Android Studio：
 1. 下载并安装[ Android Studio](https://developer.android.com/studio/index.html)。
 2. 运行并通过 “**Android Studio Setup Wizard”。**这么做将会安装最新的 Android SDK、Android SDK Platform-Tools 以及 Android SDK Build-Tools ，这些都是用Flutter开发安卓所必须的工具。
 
-### 设置你的安卓设备
+## 设置你的安卓设备
 
 为了准备在你的安卓设备上运行并测试Flutter app，你需要一个运行Android 4.1（API level 16）或更高版本的安卓设备。
 
@@ -167,11 +167,11 @@ Flutter 要求安装并设置Android Studio：
 
 默认情况下，Flutter 使用你 **adb** 工具所基于的 Android SDK 版本。如果你希望Flutter使用不同的Android SDK，那你必须为安装目录设置 **ANDROID\_HOME **环境变量。
 
-### 设置安卓模拟器
+## 设置安卓模拟器
 
 请跟随以下步骤来为在安卓模拟器上运行和测试Flutter App而做准备。
 
-1. 激活你机器上的[虚拟机加速（VM acceleration）](https://developer.android.com/studio/run/emulator-acceleration.html)；
+1. 激活你机器上的[模拟器加速（VM acceleration）](https://developer.android.com/studio/run/emulator-acceleration.html)；
 2. 打开 **Android Studio&gt;Tools&gt;Android&gt;AVD Manager **并选择** Create Virtual Device**；
 3. 选择一个设备并选择** Next**；
 4. 为你想要虚拟的安卓版本选择一个或多个系统镜像，并选择 **Next。推荐使用x86及x86\_64的镜像**；
@@ -181,7 +181,7 @@ Flutter 要求安装并设置Android Studio：
 7. 在安卓虚拟设备管理中，点击工具栏里的 Run。虚拟机开始运行并显示你所选择的操作系统版本的默认图像；
 8. 通过执行 flutter run 命令开始运行你的App，被链接的设备名称叫做 **Android SDK built for &lt;platform&gt; ，**其中platform是指集成电路，例如 x86。
 
-### [下一章节：配置编辑器](/pei-zhi-bian-ji-qi.md)
+## [下一章节：配置编辑器](/pei-zhi-bian-ji-qi.md)
 
 
 
