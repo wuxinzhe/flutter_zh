@@ -12,4 +12,5 @@
   * [Android Studio](shou-ci-ti-yan/android-studio.md)
   * [VS Code](shou-ci-ti-yan/vs-code.md)
   * [Terminal + editor](shou-ci-ti-yan/terminal-+-editor.md)
+* [编写第一个App](bian-xie-di-yi-ge-app.md)
 
