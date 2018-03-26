@@ -10,7 +10,7 @@ Flutter 是 Google 出品的一个跨平台（IOS，Android）开源开发框架
 
 当前翻译工作由 梦游的龙猫 担任主要编辑。
 
-Gitbook阅读地址：[**https://doc.flutter-zh.com**](https://flutter.showings.com.cn/)
+Gitbook阅读地址：[**https://doc.flutter-zh.com**](https://doc.flutter-zh.com)
 
 Github仓库地址：[**github.com/wuxinzhe/flutter\_zh**](https://github.com/wuxinzhe/flutter_zh.git)
 
