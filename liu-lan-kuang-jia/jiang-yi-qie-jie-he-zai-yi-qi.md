@@ -127,3 +127,7 @@ void main() {
 
 **ShoppingList** 类继承了 **StatefulWidget** 组件，这意味着这个组件储存了多个状态。当 **ShoppingList **组件第一次插入到节点树中时，框架调用 **createState** 方法去创建一个新的 **\_ShoppingListState** 实例将其关联到本地的节点树中。（注意，我们一般通过下划线来命名 State 基类中的私有成员。）当这个父组件重建时，父组件将会创建一个ShoppingList实例，但是框架会重复使用已存在于节点树种的 **\_ShoppingListState **实例而不是再次调用 **createState** 。
 
+在处理 onCartChanged 回调的时候，**\_ShoppingListState **会转变他的内部状态来增加或删除 **\_shoppingCart** 中的一个产品。通过调起 **setState** 来告知框架中那些发生变化的内部状态。调起 **setState** 标记这个组件是脏组件，并在下一次你的App需要更新屏幕时重建这个组件。如果当你修改组件的内部状态时，忘记调用 **setState** ，那框架将不会知道你的组件是脏状态，或许就不会调起组件的build方法，这意味着用户界面将无法更新到变化后的状态。
+
+通过这种方式管理状态，你不需要为创建和修改子组件而分别书写代码。取而代之的是，你只需要在这两种情况下简单的实现构建方法。
+
