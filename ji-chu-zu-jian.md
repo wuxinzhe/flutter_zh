@@ -12,9 +12,11 @@
 | 图片组件 | ![](/assets/WX20180328-152631.png) |  |
 | 文本组件 | ![](/assets/WX20180328-152642.png) |  |
 | 图标组件 | ![](/assets/WX20180328-152711.png) |  |
-|  | ![](/assets/WX20180328-152848.png) |  |
-|  | ![](/assets/WX20180328-152915.png) |  |
-|  | ![](/assets/WX20180328-152934.png) |  |
+| 按钮组件 | ![](/assets/WX20180328-152848.png) |  |
+| 滚动容器组件 | ![](/assets/WX20180328-152915.png) | 基于Material设计风格实现的可视化布局结构。这个类为显示抽屉、快速工具栏及底部菜单提供Api。 |
+| AppBar组件 | ![](/assets/WX20180328-152934.png) | 一个Material设计风格的AppBar。一个AppBar包含了一个工具条和其他潜在的组件，例如TabBar和FlexibleSpaceBar。 |
+| FlutterLogo | ![](/assets/WX20180328-152711.png) | Flutter的logo，在组件表单中，这个组件遵从Icon主题 |
+| 占位组件 | ![](/assets/WX20180328-152711.png) |  |
 
 
 
