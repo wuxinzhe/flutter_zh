@@ -1,6 +1,7 @@
 # Summary
 
 * [欢迎加入](README.md)
+* [开始入门](kai-shi-ru-men.md)
 * [安装](chapter1.md)
   * [MaxOS](chapter1/maxos.md)
   * [Windows（待）](chapter1/windows.md)
@@ -13,6 +14,7 @@
   * [VS Code](shou-ci-ti-yan/vs-code.md)
   * [Terminal + editor](shou-ci-ti-yan/terminal-+-editor.md)
 * [编写第一个App](bian-xie-di-yi-ge-app.md)
+* [构建UI](goujian-ui.md)
 * [浏览框架](liu-lan-kuang-jia.md)
   * [介绍](liu-lan-kuang-jia/jie-shao.md)
   * [Hello World](liu-lan-kuang-jia/hello-world.md)
