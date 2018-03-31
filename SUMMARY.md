@@ -37,7 +37,7 @@
       * [使用Tabs](shi-pu/she-ji-ji-chu/shi-yong-tabs.md)
       * [使用自定义字体](shi-pu/she-ji-ji-chu/shi-yong-zi-ding-yi-zi-ti.md)
       * [从包中导出字体库](shi-pu/she-ji-ji-chu/cong-bao-zhong-dao-chu-zi-ti-ku.md)
-      * 添加一个抽屉导航
+      * [添加一个抽屉导航](shi-pu/she-ji-ji-chu/tian-jia-yi-ge-chou-ti-dao-hang.md)
     * [图片](shi-pu/tu-pian.md)
     * 列表
     * 手势操作
