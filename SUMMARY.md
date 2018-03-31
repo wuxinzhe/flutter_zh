@@ -34,8 +34,8 @@
     * [设计基础](shi-pu/she-ji-ji-chu.md)
       * [使用主题分配颜色和字体风格](shi-pu/she-ji-ji-chu/shi-yong-zhu-ti-fen-pei-yan-se-he-zi-ti-feng-ge.md)
       * [显示 SnackBars](shi-pu/she-ji-ji-chu/xian-shi-snackbars.md)
-      * 使用Tabs
-      * 使用自定义字体
+      * [使用Tabs](shi-pu/she-ji-ji-chu/shi-yong-tabs.md)
+      * [使用自定义字体](shi-pu/she-ji-ji-chu/shi-yong-zi-ding-yi-zi-ti.md)
       * 从包中导出字体库
       * 添加一个抽屉导航
     * [图片](shi-pu/tu-pian.md)
