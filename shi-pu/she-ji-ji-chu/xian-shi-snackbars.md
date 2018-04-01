@@ -54,7 +54,7 @@ final snackBar = new SnackBar(
 );
 ```
 
-### 完成示例
+### 完整示例
 
 提示：在这个示例中，当用户轻触一个按钮时我们将现实一个 **SnackBar **。更多关于用户输入的信息，请参考规范手册的[**手势控制**](/liu-lan-kuang-jia/shou-shi-kong-zhi.md)相关章节。
 

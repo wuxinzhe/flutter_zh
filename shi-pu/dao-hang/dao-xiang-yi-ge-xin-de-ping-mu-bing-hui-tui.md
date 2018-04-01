@@ -64,5 +64,30 @@ class SecondScreen extends StatelessWidget {
 
 **push** 方法需要一个 **Route（路由）**，但是我们要从哪里获取 **Route（路由）**呢？我们可以创建属于我们自己的，也可以使用 **MaterialPageRoute** 。**MaterialPageRoute **是非常好用的，因为他使用平台特定的动画进行屏幕间的过度。
 
+在 FirsScreen 组件的build方法中，我们更新一下 onPressed 回调方法：
 
+```js
+// Within the `FirstScreen` Widget
+onPressed: () {
+  Navigator.push(
+    context,
+    new MaterialPageRoute(builder: (context) => new SecondScreen()),
+  );
+}
+```
+
+### 3.使用 Navigator.pop 返回到第一个屏幕
+
+现在我们处于第二屏幕，我们要如何关闭它并返回第一屏幕呢？利用** Navigator.pop** 方法！pop 方法将会从navigator管理的堆栈中移除当前的路由。
+
+我们需要更新第二屏组件中的 **onPressed** 回调方法：
+
+```js
+// Within the SecondScreen Widget
+onPressed: () {
+  Navigator.pop(context);
+}
+```
+
+完整示例
 

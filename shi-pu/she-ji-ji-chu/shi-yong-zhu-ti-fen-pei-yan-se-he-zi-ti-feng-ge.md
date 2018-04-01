@@ -80,7 +80,7 @@ new Container(
 );
 ```
 
-## 完成的示例
+## 完整示例
 
 ```js
 import 'package:flutter/foundation.dart';
