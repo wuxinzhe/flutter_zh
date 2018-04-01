@@ -6,5 +6,63 @@
 
 所以我们如何跳转到新的屏幕当中？使用 **Navigator** 组件。
 
+## 引导步骤
+
+1. 创建两个屏幕
+2. 使用 Navigator.push 导航到第二个屏幕
+3. 使用 Navigator.pop 返回到第一个屏幕
+
+### 1.创建两个屏幕
+
+首先，我们需要两个屏幕来执行演示。因为这是一个基础的示例，我们创建两个屏幕，并且每个都包含一个单独的按钮。轻触第一个屏幕的按钮将会导航到第二个屏幕，轻触第二个屏幕的按钮将会回退到第一个屏幕！
+
+首先我们构建一个视觉结构。
+
+```js
+class FirstScreen extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return new Scaffold(
+      appBar: new AppBar(
+        title: new Text('First Screen'),
+      ),
+      body: new Center(
+        child: new RaisedButton(
+          child: new Text('Launch new screen'),
+          onPressed: () {
+            // Navigate to second screen when tapped!
+          },
+        ),
+      ),
+    );
+  }
+}
+
+class SecondScreen extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return new Scaffold(
+      appBar: new AppBar(
+        title: new Text("Second Screen"),
+      ),
+      body: new Center(
+        child: new RaisedButton(
+          onPressed: () {
+            // Navigate back to first screen when tapped!
+          },
+          child: new Text('Go back!'),
+        ),
+      ),
+    );
+  }
+}
+```
+
+### 2.使用 **Navigator.push** 导航到第二个屏幕
+
+为了导航到一个新的屏幕，我们需要使用 **Navigator.push** 方法。**push** 方法将会增加一个 **Route（路由）** 到Navigator管理的路由堆栈当中。
+
+**push** 方法需要一个 **Route（路由）**，但是我们要从哪里获取 **Route（路由）**呢？我们可以创建属于我们自己的，也可以使用 **MaterialPageRoute** 。**MaterialPageRoute **是非常好用的，因为他使用平台特定的动画进行屏幕间的过度。
+
 
 
