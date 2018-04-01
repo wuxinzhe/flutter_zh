@@ -4,7 +4,7 @@
 
 在Material设计中，这是 [SnackBar](https://docs.flutter.io/flutter/material/SnackBar-class.html) 的工作。
 
-## 提示
+## 引导步骤
 
 1. 创建一个 **Scaffold** 组件
 2. 显示一个 **SnackBar**
